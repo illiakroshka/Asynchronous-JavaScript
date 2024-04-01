@@ -16,6 +16,7 @@
 // { money: 1610 }
 // { money: 1610 }
 
+// First variant 
 const total1 = (arr, callback) => {
   const items = [...arr]
   let result = 0;
@@ -35,6 +36,7 @@ const total1 = (arr, callback) => {
   },1000);
 };
 
+// Second variant
 const total2 =(items, callback) => {
   let result = 0;
   let index = 0;
@@ -63,12 +65,12 @@ const electronics = [
   { name: 'HDMI cable', price: 10 },
 ];
 
-total2(electronics, (error, money) => {
+total1(electronics, (error, money) => {
   if (error) console.error({ error });
   else console.log({ money });
 });
 
-total2(electronics, (error, money) => {
+total1(electronics, (error, money) => {
   if (error) console.error({ error });
   else console.log({ money });
 });
