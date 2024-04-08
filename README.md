@@ -16,3 +16,10 @@
 4. Async iterator 
 5. Erors and error handling 
 6. Also learned Promise methods (.all, .allSettled, .rase, .any)
+
+## Async/Await 
+
+1. Async functions & Async/await contract 
+2. Async method 
+3. Async constructor
+4. Async IIFE & top level await
